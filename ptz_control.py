@@ -8,10 +8,10 @@ import sys
 from onvif import ONVIFCamera
 from time import sleep
 
-IP = "192.168.66.64"  # Camera IP address
+IP = "192.168.123.19"  # Camera IP address
 PORT = 80  # Port
 USER = "admin"  # Username
-PASS = "wst123456"  # Password
+PASS = "admin"  # Password
 
 class ptzControl(object):
     def __init__(self):

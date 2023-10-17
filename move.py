@@ -74,7 +74,7 @@ def zoom_dowm(ptz,request,timeout=1):
 
 
 def continuous_move():
-    mycam = ONVIFCamera('192.168.66.64', 80, 'admin', 'wst123456')
+    mycam = ONVIFCamera('192.168.123.19', 80, 'admin', 'admin',wsdl_dir='/usr/local/lib/python3.10/site-packages/wsdl/')
     # Create media service object
     media = mycam.create_media_service()
     # Create ptz service object
